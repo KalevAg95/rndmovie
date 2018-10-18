@@ -8,11 +8,12 @@ class CoffeeList extends React.Component{
 			color: "#ffffff",
 			height: "50rem",
 			paddingTop:"2rem",
+			fontSize:"2rem",
 		}
 
 		return(
 			<div class="ui left-aligned container" style={divStyle}>
-				<center><h2>Nearest Coffee Shops</h2></center>
+				<center><span>Nearest Coffee Shops</span></center>
 			
 			</div>
 		);

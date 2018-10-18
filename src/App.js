@@ -5,8 +5,9 @@ import LoginPage from "./components/pages/LoginPage";
 
 const App = () => 
 <div>  
-  <Route path="/login" exact component={LoginPage}/>
   <Route path="/home" exact component={HomePage}/>
+  <Route path="/login" exact component={LoginPage}/>
+  
 
 </div>;
 
