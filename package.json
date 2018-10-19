@@ -2,9 +2,9 @@
   "name": "rndmovie",
   "version": "0.1.0",
   "private": true,
-  "engines":{
-  	"node":"10.12.0",
-  	"npm":"6.4.1"
+  "engines": {
+    "node": "10.12.0",
+    "npm": "6.4.1"
   },
   "dependencies": {
     "axios": "^0.18.0",
@@ -39,6 +39,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "eslint": "^5.7.0",
     "eslint-config-airbnb": "^15.0.1",
     "eslint-config-prettier": "^3.1.0",
     "eslint-plugin-import": "^2.14.0",
