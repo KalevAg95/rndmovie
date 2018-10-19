@@ -122,10 +122,10 @@ class CoffeeMap extends React.Component{
 		}
 
 		let divStyle = {
-			color: "#00b3b3",
+			color: "#000000",
 			height: "60rem",
 			paddingTop:"2rem",
-			fontSize:"2rem",
+			fontSize:"5rem",
 		}
 	
 		if(loading){
@@ -137,7 +137,7 @@ class CoffeeMap extends React.Component{
 				<div className="column">
 					<div className="ui left-aligned container" 
 						style={divStyle}>
-						<center><h1>Nearest Coffee Shops</h1></center>
+						<center><h1><i class="bullseye icon"></i> Nearest Coffee Shops</h1></center>
 							<div style={columnStyle1}>
 								{this.state.markers.map((marker, i) =>{
               						return(
@@ -161,7 +161,7 @@ class CoffeeMap extends React.Component{
 				<div className="column">
 					<div className="ui left-aligned container" 
 						style={divStyle}>
-						<center><h1>CoffeeMap</h1></center>
+						<center><h1><i className="map marker alternate icon"></i>Coffee Map</h1></center>
 							<Map 								
 								google={google}	
 								zoom={zoom}

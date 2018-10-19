@@ -6,7 +6,7 @@ class Banner extends React.Component{
 
 		let divStyle = {
 			color: "#ffffff",
-			backgroundColor:"#00b3b3",
+			backgroundColor:"#000000",
 			fontSize: "1.5rem",
 			padding: "1rem",
 			paddingLeft:"1em",
